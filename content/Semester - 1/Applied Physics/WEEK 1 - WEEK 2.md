@@ -2,8 +2,8 @@
 ## INTRODUCTION
 
 > [!NOTE] Basics
-> Physics is the fundamental branch of science concerned with the nature and properties of matter, energy, space, and time. It aims to explain how the universe behaves at both cosmic and subatomic scales through mathematical laws and empirical observations.
-> Software Engineering
+> Physics is the fundamental branch of science concerned with the nature and properties of matter, energy, space, and time.
+> 
 > **Base (Fundamental) Quantities and SI Units**
 > Base quantities are independent physical quantities that cannot be defined in terms of other physical quantities. They serve as the foundation for the entire metric measurement system (International System of Units, SI).
 

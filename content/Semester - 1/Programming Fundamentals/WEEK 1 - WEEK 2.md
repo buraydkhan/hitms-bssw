@@ -126,3 +126,57 @@ Ways to show Algorithm :
 > 2. RSVP Received : When RSVPs come in, the Caterer adjusts the food order
 > 3. Data Nearing : A few days before the party, the Decor Team is notified to start setting up
 
+## Lecture 5 : Basic Building blocks of a co Computer Program.
+
+```
+#include <iostream.h>
+int main()
+{
+    std::cout << "Azhar";
+}
+````
+
+> [!NOTE] Explanation
+> - **`#include <iostream.h>`**
+>     
+>     - **What it is:** A preprocessor directive / header file.
+>         
+>     - **In simple words:** It tells the computer to load the input/output library so the program understands commands like `cout` (printing output to the screen).
+>         
+> - **`int main()`**
+>     
+>     - **What it is:** The main function.
+>         
+>     - **In simple words:** This is the starting point (entry point) of every C++ program. The computer looks for `main()` first to know where to begin executing code.
+>         
+> - **`{` and `}`**
+>     
+>     - **What it is:** Opening and closing curly braces (delimiters / boundaries).
+>         
+>     - **In simple words:** They define the body of the function. Everything written inside `{ }` belongs to the `main()` function.
+>         
+> - **`std::cout << "Azhar";`**
+>     
+>     - **`std::`** — Specifies the namespace. It tells C++ that `cout` belongs to the standard (`std`) library.
+>         
+>     - **`cout`** — Stands for "character output". It is used to print text to the screen.
+>         
+>     - **`<<`** — The insertion/stream operator. It passes the text on its right to `cout`.
+>         
+>     - **`"Azhar"`** — The message (text string) you want to display.
+>         
+>     - **`;`** — A semicolon (instruction terminator). It acts like a period at the end of a sentence to mark the end of a statement.
+> 
+
+```
+#include <iostream.h>
+using namespace std;
+
+void main()
+{
+    cout << "Burayd";
+    cout << "PF";
+    cout << "BSSW114";
+}
+````
+
