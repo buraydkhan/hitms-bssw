@@ -334,3 +334,4 @@ COMPARISON BETWEEN SCALAR AND VECTOR
 >     
 > 6. $\hat{r} = 0.6\hat{i} - 0.8\hat{j}$
 
+[[Semester - 1/Applied Physics/WEEK 3 - WEEK 4\|WEEK 3 - WEEK 4]]
