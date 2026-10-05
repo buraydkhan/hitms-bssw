@@ -131,7 +131,11 @@ Ways to show Algorithm :
 > 2. RSVP Received : When RSVPs come in, the Caterer adjusts the food order
 > 3. Data Nearing : A few days before the party, the Decor Team is notified to start setting up
 
-## Lecture 5 : Basic Building blocks of a co Computer Program.
+> **Declarative paradigm** is like just saying **what you want**: I want a peanut butter and jelly sandwich."You describe the **WHAT**, not the **HOW**. The computer figures out the steps itself.
+
+
+
+## Lecture 5 : Basic Building blocks of a Computer Program.
 
 ```
 #include <iostream.h>
