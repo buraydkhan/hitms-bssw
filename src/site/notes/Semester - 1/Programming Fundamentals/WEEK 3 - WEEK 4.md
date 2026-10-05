@@ -147,8 +147,28 @@ statements;
 
 Nested Conditions
 
-		     HOT DRINK
-				|
-			--------
-			|       	|
-			TEA     COFFEE
+A **nested condition** is a condition _inside_ another condition. Like:
+
+> "If it's raining, **and if** I have an umbrella, I'll go out. **Otherwise if** I have a raincoat, I'll still go."
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 20;
+    bool hasID = true;
+
+    if (age >= 18) {              // outer condition
+        if (hasID) {              // inner (nested) condition
+            cout << "You can enter." << endl;
+        } else {
+            cout << "You need an ID." << endl;
+        }
+    } else {
+        cout << "Too young to enter." << endl;
+    }
+
+    return 0;
+}
+```
