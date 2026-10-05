@@ -5,7 +5,7 @@
 # WEEK 3
 ## Lecture # 6 : Varaible and Data Types
 
-Static Program -> he source code or binary file of a program as it exists in storage (on disk/RAM) before execution. It represents fixed, unexecuted instructions and data definitions.
+Static Program -> The source code or binary file of a program as it exists in storage (on disk/RAM) before execution. It represents fixed, unexecuted instructions and data definitions.
 Ex : HITMS
 Dynamic Program -> A running instance of a program in execution (a process). Its behavior, state, and memory allocation change over time based on runtime inputs and execution flow.
 Ex : Youtube
