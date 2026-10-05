@@ -196,4 +196,4 @@
 > Dharma: Righteous duty and moral living
 > Pilgrimage & Festivals: Kumbh Mela, Diwali, Holi etc.
 
-[[Semester - 1/Functional Engish/WEEK 3 - WEEK 4\|WEEK 3 - WEEK 4]]
+[[Semester - 1/Islamic Studies/WEEK 3 - WEEK 4\|WEEK 3 - WEEK 4]]
