@@ -92,5 +92,5 @@
 > 5G: Low-latency, high-speed mobile connectivity.
 > 
 
-
+[[Semester - 1/Application of Information & Communicationo Technologies/WEEK 3 - WEEK 4\|WEEK 3 - WEEK 4]]
 

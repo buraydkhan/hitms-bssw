@@ -532,3 +532,4 @@
 > 
 > Because the limit exists ($\text{LHL} = \text{RHL} = 6$) but does not equal $g(3)$, this is a **removable (point) discontinuity**.
 
+[[Semester - 1/Calculus & Analytical Geometry/WEEK 5 - WEEK 6\|WEEK 5 - WEEK 6]]

@@ -224,3 +224,102 @@
 |**Past Perfect**|`had + V3`|`had + been + V3`|She had edited the report.|The report **had been edited** by her.|
 |**Future Simple**|`will + V1`|`will + be + V3`|She will edit the report.|The report **will be edited** by her.|
 |**Future Perfect**|`will + have + V3`|`will + have + been + V3`|She will have edited the report.|The report **will have been edited** by her|
+## WEEK 4
+
+## Direct and Indirect Speech
+
+> [!NOTE] Definition
+> - **Direct Speech**: Repeats or quotes the exact words spoken, enclosed in quotation marks.
+>     
+>     - _Example_: He said, "I am finishing the report now."
+>         
+> - **Indirect Speech (Reported Speech)**: Relays the substance of what was said without quoting exact words. Tenses, pronouns, and time/place adverbs typically shift backward (backshifting).
+>     
+>     - _Example_: He said that he was finishing the report then.
+
+## Synonyms and Antonyms
+
+> [!NOTE] Definition
+> ### Synonyms
+> 
+> Words that share identical or closely related meanings within a given context (e.g., _start_ and _begin_).
+> 
+> ### Antonyms
+> 
+> Words with opposite meanings, categorized by their relationship and nuance:
+> 
+> - **Gradable Antonyms**: Opposites that exist on a continuous spectrum with degrees of difference in between. They can be modified by adverbs like _very_ or _slightly_.
+>     
+>     - _Example_: _Hot_ $\leftrightarrow$ _Cold_ (with _warm_, _tepid_, and _cool_ in between).
+>         
+> - **Non-Gradable (Complementary) Antonyms**: Binary opposites with no middle ground; if one applies, the other cannot.
+>     
+>     - _Example_: _Alive_ vs. _Dead_, _Pass_ vs. _Fail_, _True_ vs. _False_.
+>         
+> - **Positive vs. Negative Antonyms/Synonyms**: Words can share basic meanings but carry distinct positive or negative emotional weights.
+>     
+>     - _Example_: _Confident_ (positive) vs. _Arrogant_ (negative).
+>         
+> - **Casual vs. Formal Synonyms**: Choice of synonym depends on social context and register.
+>     
+>     - _Example_: _Kid_ (casual) vs. _Child_ (neutral) vs. _Offspring_ (formal).
+>         
+> 
+
+## Why Connotations Matter
+
+- **Denotation**: The literal, objective dictionary definition of a word.
+- **Connotation**: The emotional, social, or cultural association attached to a word.
+
+Word choices with identical denotations can completely alter the tone, attitude, and impact of a message:
+
+|**Neutral Denotation**|**Positive Connotation**|**Negative Connotation**|
+|---|---|---|
+|Careful with money|**Frugal** / **Thrifty**|**Cheap** / **Stingy**|
+|Fixed in opinion|**Steadfast** / **Determined**|**Stubborn** / **Pigheaded**|
+|Interested in details|**Curious** / **Inquisitive**|**Nosy** / **Prying**|
+|Unfilled space|**Spacious** / **Airy**|**Empty** / **Desolate**|
+
+## Prefixes and Suffixes (Word Formation)
+
+Prefixes and suffixes are affixes added to root words to alter meaning or grammatical function.
+
+```
+[ PREFIX ]  +  [ ROOT WORD ]  +  [ SUFFIX ]
+   un-            comfort            -able      =  Uncomfortable
+ (not)           (ease/help)       (capable of)
+```
+
+> [!NOTE] Definitions
+> ### Prefixes
+> 
+> Added to the **beginning** of a root word. They change the meaning of the word without altering its grammatical category (part of speech).
+> 
+> - **Negative/Reversal**: _un-_ (unhappy), _dis-_ (disagree), _im-_ (impossible).
+>     
+> - **Time/Order**: _pre-_ (preview), _post-_ (postpone).
+>     
+> - **Direction/Quantity**: _sub-_ (submarine), _bi-_ (bilingual), _over-_ (overcook).
+>     
+> 
+> ### Suffixes
+> 
+> Added to the **end** of a root word. They frequently change the word's part of speech (e.g., turning a verb into a noun or an adjective into an adverb).
+> 
+> - **Noun Formers**: _-tion_ (action $\rightarrow$ act), _-ment_ (develop $\rightarrow$ development), _-ness_ (kind $\rightarrow$ kindness).
+>     
+> - **Adjective Formers**: _-ful_ (hope $\rightarrow$ hopeful), _-less_ (care $\rightarrow$ careless), _-able_ (read $\rightarrow$ readable).
+>     
+> - **Adverb Formers**: _-ly_ (quick $\rightarrow$ quickly).
+>     
+
+## Skimming and Scanning
+
+Skimming and scanning are targeted fast-reading strategies designed to extract information efficiently without reading every word.
+
+| **Feature**     | **Skimming**                                                                                           | **Scanning**                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| **Objective**   | To understand the **main idea / overall gist** of a text.                                              | To locate **specific information** (facts, dates, names, numbers).                          |
+| **Technique**   | Read titles, subheadings, topic sentences (first/last sentences of paragraphs), and highlighted words. | Search for specific keywords, visual cues, or target phrases while ignoring unrelated text. |
+| **Speed**       | Fast.                                                                                                  | Extremely fast.                                                                             |
+| **Example Use** | Previewing a chapter before studying, reading news headlines.                                          | Finding a phone number in a directory, checking a flight schedule.                          |

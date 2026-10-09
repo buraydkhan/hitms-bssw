@@ -205,7 +205,7 @@ WEEK 4
 >     
 > 
 
-## 2. Conservation of Linear Momentum
+## Conservation of Linear Momentum
 
 > [!NOTE] Explanation
 > - **Concept:** The total linear momentum of an isolated system ($\vec{F}_{\text{ext, net}} = 0$) remains constant over time.
@@ -215,7 +215,7 @@ WEEK 4
 >     $$\sum \vec{p}_i = \sum \vec{p}_f \implies m_1\vec{v}_{1i} + m_2\vec{v}_{2i} = m_1\vec{v}_{1f} + m_2\vec{v}_{2f}$$
 >     
 
-## 3. Elastic vs. Inelastic Collisions
+## Elastic vs. Inelastic Collisions
 
 > [!NOTE]
 > #### **Elastic Collision**
@@ -243,7 +243,7 @@ WEEK 4
 >     
 > 
 
-## 4. Center of Mass ($R_{\text{cm}}$)
+## Center of Mass ($R_{\text{cm}}$)
 
 > [!NOTE]
 > - **Concept:** The unique point where the total mass of a system can be treated as concentrated for translational motion.
@@ -275,3 +275,4 @@ WEEK 4
 > 
 > 
 
+[[Semester - 1/Applied Physics/WEEK 5 - WEEK 6\|WEEK 5 - WEEK 6]]
