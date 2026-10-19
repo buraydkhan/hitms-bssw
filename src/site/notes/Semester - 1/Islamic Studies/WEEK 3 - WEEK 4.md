@@ -203,3 +203,4 @@ For a Hadith to be graded as **Sahih** (authentic and legally binding), Hadith c
 | **3. Precision & Retention**       | _Dabt_              | Every narrator must possess precise retention—either by memory (_dabt al-sadr_) or through verified written records (_dabt al-kitab_). |
 | **4. Freedom from Irregularity**   | _'Adam al-Shudhudh_ | The report must not contradict another narration transmitted by a more trustworthy or authoritative narrator.                          |
 | **5. Freedom from Hidden Defects** | _'Adam al-'Illah_   | The report must be free from subtle, hidden flaws ('_illah_) that undermine authenticity despite an apparently sound chain.            |
+[[Semester - 1/Islamic Studies/WEEK 5 - WEEK 6\|WEEK 5 - WEEK 6]]
