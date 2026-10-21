@@ -32,7 +32,7 @@ Ex : Youtube
 > Datatype nameofvariable = value ; 
 
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -74,7 +74,7 @@ cout => character out => output
 cin => character in => input
 cin  >> variable ;
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -122,7 +122,7 @@ Its a prioritizes structure. Ex : DMAS,BODMAS rule
 
 if (condition) -> relation operators are used -> <,>,== , <=, >=, !=
 
-```
+```cpp
 int age = 17
 if (age > 18){
 cout<<"eligible";
@@ -151,7 +151,7 @@ A **nested condition** is a condition _inside_ another condition. Like:
 
 > "If it's raining, **and if** I have an umbrella, I'll go out. **Otherwise if** I have a raincoat, I'll still go."
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
