@@ -52,7 +52,7 @@
 
     
 
-## 2. Implicit Differentiation
+## Implicit Differentiation
 
 ### **Concept Summary**
 
@@ -75,7 +75,7 @@ Used when an equation cannot be easily solved explicitly for $y$ in terms of $x$
       
     
 
-## 3. Exponential and Logarithmic Derivatives
+## Exponential and Logarithmic Derivatives
 
 ### **Key Formulas**
 
@@ -115,7 +115,7 @@ Used when an equation cannot be easily solved explicitly for $y$ in terms of $x$
 >     
 > 
 
-## 4. Indeterminate Forms & L'Hôpital's Rule
+## Indeterminate Forms & L'Hôpital's Rule
 
 When evaluating a limit results in an indeterminate form such as $\frac{0}{0}$ or $\frac{\infty}{\infty}$, **L'Hôpital's Rule** states that:
 
@@ -286,3 +286,179 @@ _(provided the limit on the right exists or is infinite)._
 >     $$\lim_{x \to \infty} \frac{\frac{d}{dx}[\ln(x)]}{\frac{d}{dx}[x]} = \lim_{x \to \infty} \frac{\frac{1}{x}}{1} = \lim_{x \to \infty} \frac{1}{x}$$
 >     
 >     $$= \frac{1}{\infty} = \mathbf{0}$$
+
+# WEEK 8
+
+## Increasing and Decreasing Functions
+
+A function is **increasing** if its graph goes upwards as you move from left to right, and **decreasing** if its graph goes downwards.
+
+```
+       Increasing Function                  Decreasing Function
+          Slope > 0                            Slope < 0
+             ^                                    ^
+             │     /                              │  \
+             │    /                               │   \
+             │   /                                │    \
+        ─────┴──/──>                         ─────┴─────\─>
+```
+
+### The Derivative Test
+
+Because the derivative $f'(x)$ represents the slope of the tangent line at any point:
+
+- **Increasing**: $f'(x) > 0$ on an interval (positive slope).
+    
+- **Decreasing**: $f'(x) < 0$ on an interval (negative slope).
+    
+- **Constant / Turning Point**: $f'(x) = 0$ (horizontal line).
+    
+
+> [!QUESTION] Example
+> ### Example Problem: Find Increasing/Decreasing Intervals
+> 
+> Determine where $f(x) = x^2 - 4x + 5$ is increasing and decreasing.
+> 
+> **Solution:**
+> 
+> 1. **Find the derivative**:
+>     
+>     $$f'(x) = 2x - 4$$
+>     
+> 2. **Find the critical point** (where $f'(x) = 0$):
+>     
+>     $$2x - 4 = 0 \implies 2x = 4 \implies x = 2$$
+>     
+> 1. **Test intervals around $x = 2$**:
+>     
+>     - For $x < 2$ (e.g., $x = 0$): $f'(0) = 2(0) - 4 = -4 < 0$ $\rightarrow$ **Decreasing** on $(-\infty, 2)$
+>         
+>     - For $x > 2$ (e.g., $x = 3$): $f'(3) = 2(3) - 4 = 2 > 0$ $\rightarrow$ **Increasing** on $(2, \infty)$
+>         
+
+## Rolle's Theorem
+
+**The Big Idea:** If a continuous curve starts and ends at the **same height**, it must flatten out (have a horizontal tangent line where slope = 0) at least once in between.
+
+```
+    y ▲         f(a) = f(b)
+      │          ___*___  ← Peak where f'(c) = 0
+      │         /       \
+f(a) ─┼─ *─────/─────────\* ─ f(b)
+      │  a                 b
+      └──────────────────────► x
+```
+
+### The 3 Required Conditions:
+
+For a function $f(x)$ on an interval $[a, b]$:
+
+1. $f(x)$ is **continuous** on the closed interval $[a, b]$ (no breaks or jumps).
+    
+2. $f(x)$ is **differentiable** on the open interval $(a, b)$ (no sharp corners).
+    
+3. $f(a) = f(b)$ (the start and end points have equal $y$-values).
+    
+
+### Conclusion:
+
+There is at least one point $c$ in $(a, b)$ where the derivative is zero:
+
+$$f'(c) = 0$$
+
+> [!QUESTION] Example
+> ### Example Problem: Rolle's Theorem
+> 
+> Verify Rolle's Theorem for $f(x) = x^2 - 4x + 3$ on the interval $[1, 3]$ and find $c$.
+> 
+> **Solution:**
+> 
+> 1. **Check conditions**:
+>     
+>     - It is a polynomial, so it is continuous on $[1, 3]$ and differentiable on $(1, 3)$.
+>         
+>     - $f(1) = (1)^2 - 4(1) + 3 = 0$
+>         
+>     - $f(3) = (3)^2 - 4(3) + 3 = 0$
+>         
+>     - Since $f(1) = f(3) = 0$, Rolle's Theorem applies.
+>         
+> 2. **Find $c$**:
+>     
+>     $$f'(x) = 2x - 4$$
+>     
+>     Set $f'(c) = 0$:
+>     
+>     $$2c - 4 = 0 \implies c = 2$$
+>     
+> 
+> Since $c = 2$ lies inside the open interval $(1, 3)$, Rolle's Theorem is verified.
+
+## Mean Value Theorem (MVT)
+
+**The Big Idea:** The Mean Value Theorem is a slanted version of Rolle's Theorem. It says that at least one point on a smooth curve has an **instantaneous slope** equal to the **average slope** connecting its endpoints.
+
+_Analogy:_ If you drive $100\text{ km}$ in $1\text{ hour}$ (average speed $100\text{ km/h}$), at least once during your trip your speedometer must have read exactly $100\text{ km/h}$.
+
+```
+    y ▲
+      │               * (b, f(b))
+      │              /
+      │        *    /  ← Tangent line at x = c is parallel
+      │       /    /     to secant line connecting endpoints
+      │      /    /
+      │     *    /
+      │  (a, f(a))
+      └──────────────────────► x
+```
+
+### The 2 Required Conditions:
+
+For a function $f(x)$ on an interval $[a, b]$:
+
+1. $f(x)$ is **continuous** on $[a, b]$.
+    
+2. $f(x)$ is **differentiable** on $(a, b)$.
+    
+
+### Conclusion:
+
+There exists at least one point $c$ in $(a, b)$ where:
+
+$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+
+> [!QUESTION] Example
+> ### Example Problem: Mean Value Theorem
+> 
+> Find the value of $c$ that satisfies the Mean Value Theorem for $f(x) = x^2$ on the interval $[1, 3]$.
+> 
+> **Solution:**
+> 
+> 1. **Check conditions**: $f(x) = x^2$ is continuous on $[1, 3]$ and differentiable on $(1, 3)$.
+>     
+> 2. **Calculate average rate of change (Secant Slope)**:
+>     
+>     $$f(1) = 1^2 = 1, \quad f(3) = 3^2 = 9$$
+>     
+>     $$\text{Average Slope} = \frac{f(3) - f(1)}{3 - 1} = \frac{9 - 1}{2} = \frac{8}{2} = 4$$
+>     
+> 1. **Find $c$ (Instantaneous Slope)**:
+>     
+>     $$f'(x) = 2x \implies f'(c) = 2c$$
+>     
+>     Set $f'(c)$ equal to the average slope:
+>     
+>     $$2c = 4 \implies c = 2$$
+>     
+> 
+> Since $c = 2$ is inside $(1, 3)$, MVT is satisfied.
+> 
+
+## Quick Comparison Summary
+
+|**Feature**|**Rolle's Theorem**|**Mean Value Theorem**|
+|---|---|---|
+|**Continuity & Differentiability**|Required on $[a, b]$ and $(a, b)$|Required on $[a, b]$ and $(a, b)$|
+|**Endpoint Condition**|Requires $f(a) = f(b)$|No endpoint condition required|
+|**Formula**|$f'(c) = 0$|$f'(c) = \frac{f(b) - f(a)}{b - a}$|
+|**Interpretation**|Finds where slope is **horizontal**|Finds where slope equals the **secant line**|
