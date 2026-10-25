@@ -15,9 +15,7 @@
 
 - **Distance ($d$):** The total path length traveled. It is a **scalar** quantity (always positive or zero).
 - Displacement depends only on the endpoints, whereas distance depends on the complete path taken.
-
 - **Displacement is not always equal to the  distance traveled! • Displacement can be positive or negative**
-
 - **POSITIVE AND NEGATIVE QUANTITIES ARE JUST DIRECTIONS IN MOTION PROBLEMS!**
 
 ## Velocity vs. Speed
@@ -170,10 +168,10 @@
 >     
 > - **$t$ or $\Delta t$:** Time interval ($\text{s}$)
 
-WEEK 4 
+# WEEK 4 
 
 ## Momentum 
-
+ 
 > [!NOTE]
 > ### 1. Linear Momentum ($\vec{p}$)
 > 
